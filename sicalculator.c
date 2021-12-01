@@ -1,4 +1,5 @@
 #include<stdio.h>  
+ // C Program
 
 int main()  
 
@@ -6,7 +7,7 @@ int main()
 
         float PA , Rate , Time , SI ;  //Principle amount, Rate of interest, Duration in months, Simple interest
 
-        printf("Enter the Principle Amount");
+        printf("Enter the Principle Amount"); 
 
         scanf("%f\n", &PA);
 
