@@ -5,7 +5,7 @@ int main()
 
     {  
 
-        float PA , Rate , Time , SI ;  //Principle amount, Rate of interest, Duration in months, Simple interest
+        float PA , R , Time , SI ;  //Principle amount, Rate of interest, Duration in months, Simple interest
 
         printf("Enter the Principle Amount"); 
 
@@ -13,13 +13,13 @@ int main()
 
         printf("Enter the Rate of Interest");
 
-        scanf("%f\n", &Rate);
+        scanf("%f\n", &R);
 
         printf("Enter the Duration in months");
 
         scanf("%f\n", &Time);
 
-        SI  = (PA*Rate*Time)/100;  
+        SI  = (PA*R*Time)/100;  
 
         printf("\n\n Simple Interest is : %f", SI);  
 
